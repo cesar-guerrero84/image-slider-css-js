@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <img src="https://images.pexels.com/photos/1044302/pexels-photo-1044302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="pexeels" id="slider">
+        <ul class="navigation">
+            <li onclick="imgslider('https://images.pexels.com/photos/1044302/pexels-photo-1044302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"><img src="https://images.pexels.com/photos/1044302/pexels-photo-1044302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="pexeels"></li>
+            <li onclick="imgslider('https://images.pexels.com/photos/1475618/pexels-photo-1475618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"><img src="https://images.pexels.com/photos/1475618/pexels-photo-1475618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="pexels"></li>
+            <li onclick="imgslider('https://images.pexels.com/photos/842144/pexels-photo-842144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"><img src="https://images.pexels.com/photos/842144/pexels-photo-842144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="pexels"></li>
+            <li onclick="imgslider('https://images.pexels.com/photos/1475618/pexels-photo-1475618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"><img src="https://images.pexels.com/photos/1475618/pexels-photo-1475618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="pexels"></li>
+        </ul>
+        <h2>image slider</h2>
+    </section>
+    <script type="text/javascript">
+        function imgslider(anything){
+            document.getElementById("slider").src = anything;
+        }
+    </script>
+</body>
+</html>
